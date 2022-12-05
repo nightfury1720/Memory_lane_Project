@@ -1,0 +1,14 @@
+.PageTitle {
+  font-family: "Gentium Basic", serif;
+  font-weight: 500;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.Subtitle {
+  font-family: "Gentium Basic", serif;
+  font-weight: 400;
+  margin: 0 auto;
+  align-items: center;
+  margin: 10px;
+}

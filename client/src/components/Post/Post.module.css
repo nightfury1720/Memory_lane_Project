@@ -1,0 +1,138 @@
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+span,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.6;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  color: #444;
+}
+
+a,
+button {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+a:focus,
+a:active,
+a:hover,
+button:focus,
+button:active,
+button:hover {
+  text-decoration: none;
+  color: #498bf9;
+}
+
+.Post {
+  padding-bottom: 0;
+  text-align: left;
+  height: auto;
+  position: relative;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.Votes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.Votes > li {
+  list-style: none;
+  width: 50%;
+  display: inline-block;
+  border-right: 1px solid #fff;
+  /* background: #edf3f3; */
+  padding: 2px;
+  font-size: 1.3em;
+}
+
+.Votes > li:first-child {
+  float: left;
+}
+
+.Votes > li:last-child {
+  border: 0px;
+  float: right;
+}
+
+.Votes > li > button {
+  margin: -20px;
+  border: none;
+  width: 80%;
+  background: transparent;
+}
+
+.Votes > li > button > svg {
+  padding-right: 10px;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.Title {
+  padding: 15px 0px 20px;
+  font-weight: 400;
+  font-style: oblique;
+  display: inline;
+}
+
+.User {
+  padding: 25px 0 15px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -40px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.PostContent {
+  width: 100%;
+  float: none;
+  height: auto;
+  position: relative;
+  padding: 30px;
+  padding-bottom: 45px;
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+
+  .PostContent {
+    height: auto;
+    width: 100%;
+  }
+}

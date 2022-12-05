@@ -1,0 +1,47 @@
+.Main {
+  background: #f8f8f8;
+  margin: 10px;
+  padding: 150px 0px;
+  margin-bottom: 150px;
+}
+
+.Container {
+  width: 900px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  padding: 75px 0;
+  align-content: center;
+}
+
+.Title {
+  width: 900px;
+  align-content: center;
+  background: #eeefff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 80px;
+  font-family: "Gentium Basic", serif;
+  font-weight: 600;
+  display: flex;
+  padding-left: 25%;
+  margin: 10px auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .Container,
+  .Title {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Container,
+  .Title {
+    max-width: 1200px;
+  }
+}

@@ -1,0 +1,23 @@
+/* .Posts div[class^="col"] {
+  margin: 30px 0px;
+} */
+
+.Posts {
+  margin-top: -30px;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+
+@media screen and (min-width: 1200px) {
+  .Posts {
+    padding: 0 15%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Posts {
+    padding: 0 10%;
+  }
+}

@@ -1,0 +1,163 @@
+.Main {
+  background: #f8f8f8;
+  padding: 150px 0;
+  margin-bottom: 150px;
+}
+
+.Container {
+  width: 900px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  padding: 75px 0;
+}
+
+.SignUpForm {
+  width: 80%;
+  overflow: hidden;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px;
+  z-index: 1;
+}
+.Title {
+  margin-bottom: 33px;
+}
+
+.Des {
+  font-size: 14px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.RegisterForm {
+  width: 100%;
+}
+
+.FormGroup {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.Input input:focus {
+  outline: none;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+}
+
+.Input {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.Input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+.SignUpImg {
+  width: 80%;
+  height: 60%;
+  overflow: hidden;
+  margin: 0 20px;
+  margin-top: 45px;
+  z-index: 0;
+  align-items: center;
+}
+
+.Button {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.Link {
+  font-size: 16px;
+  width: 80%;
+  color: #222;
+  display: block;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+.textarea {
+  width: 100%;
+  display: block;
+  border: 1px solid #999;
+  padding: 6px 30px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .Container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .Container {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .SignUpForm {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+  }
+
+  .SignUpForm {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding: 0 30px;
+    width: auto;
+  }
+
+  .SignUpImg {
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 50px;
+    order: 2;
+    -moz-order: 2;
+    -webkit-order: 2;
+    -o-order: 2;
+    -ms-order: 2;
+    height: 30%;
+    width: 60%;
+  }
+
+  .Button {
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+
+  .SignUpImg {
+    display: none;
+  }
+
+  .Link {
+    font-size: 14px;
+    margin: 8px;
+    padding-left: 10%;
+    margin-top: 12px;
+  }
+}
